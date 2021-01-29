@@ -1,0 +1,25 @@
+@media(max-width: 576px){
+    .identity{
+        background: url(../img/bg.gif);
+        height: 105vh;
+        background-size: cover;
+        width: 100%;
+    }
+    .project{
+        padding-left: 25px;
+        
+    }
+    .slide{
+        width: 100%;
+        margin: auto;
+    }
+    .project-description{
+        width: 100%;
+        margin: auto;
+    }
+    .project-body{
+        width: 100%;
+        margin: auto;
+    }
+
+}

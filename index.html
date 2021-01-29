@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy-Appointments</title>
+
+  <!-- icon -->
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/6440522776.js" crossorigin="anonymous"></script>
+
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive css -->
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+  <div class="all-area">
+    <!-- navbar start -->
+
+    <div class="menu sticky-top" id="my-div">
+      <nav class="navbar navbar-expand-lg sticky-top my-navbar">
+        <div class="container">
+          <a class="navbar-brand name" href="#">Happy Appointments</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item act">
+                <a class="nav-link " href="#" id="home">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item border-right ">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#" href="#">Registration</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- navbar ends -->
+
+    <!-- social icon area start -->
+
+    <div class="share mt-5">
+      <div class="container d-flex">
+        <span class="mt-2 mr-3 h3">Share On : </span>
+        <div class="icon d-flex justify-content-center align-items-center mr-3">
+          <div class="fb-icon">
+            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+          </div>
+        </div>
+        <div class="icon d-flex justify-content-center align-items-center">
+          <div class="fb-icon">
+            <a href="#"> <i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- social icon area ends -->
+
+    <!-- card area start -->
+
+    <section class="card-area mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="card-content">
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="img-area mr-1">
+                  <img src="./img/doctor.jpg" alt="">
+                </div>
+                <div class="card-content">
+                  <h3>Physician in Richmond</h3>
+                  <p>
+                    Family medicine is a medical specialty devoted to comprehensive health care for people of all ages;
+                    the specialist is named a family physician or family docto
+                  </p>
+                  <p> <span class="mr-1" style="height: 45px; width: 45px; border-radius: 11px; background: blue; color: #fff; padding: 7px 5px; text-align: center;">insurance: </span> <b>Humana, Cigna, Aetna, United</b> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- card area ends -->
+
+
+
+    <!--booking area start-->
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="booking-area">
+            <div class="booking-area-overlay">
+              <div class="container text-light">
+                <div class="booking-sec-title">
+                  <h2 class="text-center">Book Now</h2>
+                </div>
+                <div class="w-100">
+                  <div class="col-md-10 offset-md-1">
+                    <div class="booking-area-form">
+                      <form>
+                        <div class="form-group">
+                          <input type="text" name="user" class="form-control" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" name="user" class="form-control" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                          <input type="email" name="email" class="form-control" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                          <input type="text" name="user" class="form-control" required placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                          <input type="date" name="calender" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="form-group">
+                          <input type="time" name="user" class="form-control" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                          <textarea class="form-control" placeholder="Massage" rows="7" name="msg"></textarea>
+                        </div>
+                        <div class="booking-form-footer">
+
+                          <div class="booking-form-right">
+                            <div class="btn-area">
+                              <a href="#" class="my-btn">Book Now</a>
+                              <a href="#" class="my-btn ml-3">Clear</a>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="submit-content container pb-3">
+      <h3>Submit Your Review</h3>
+      <p class="text-danger pb-3"> <a href="#"><span class="text-primary">Login </span></a> Please login to submit the
+        review</p>
+      <h5>Comments</h5>
+    </div>
+
+    <!--booking area ends-->
+  </div>
+  <footer>
+    <div class="container">
+      <h3>Hello world</h3>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <!-- bootstrap js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- main js -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500&family=Imbue:wght@300&family=Oswald:wght@300&family=Yanone+Kaffeesatz&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Imbue', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+*/
+
+.all-area {
+    background: #EEEEEE;
+}
+
+/* menu start */
+
+nav {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.name {
+    background: -webkit-linear-gradient(#ffc8fd, #00ff55);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.my-navbar {
+    background: black;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-toggler i {
+    color: black;
+    font-size: 29px;
+}
+
+ul li {
+    margin: auto;
+}
+
+ul li a {
+    font-size: 19px;
+    padding: 0 25px;
+    color: #fff;
+}
+
+#resume {
+    padding: 5px 11px;
+    margin-top: 2px;
+    font-weight: bold;
+    color: red;
+    height: auto;
+    width: 85px;
+    margin: auto;
+}
+
+#resume:hover {
+    color: #fff;
+}
+
+ul li a:hover {
+    background: #1abc9c;
+    color: #fff;
+}
+
+/* menu ends */
+
+/* share area start */
+
+.share {}
+
+.share .icon {
+    background-color: #03A9F4;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.share i {
+    color: #fff;
+    font-size: 35px;
+}
+
+/* share area ends */
+
+/* card area start  */
+
+.card-area {
+    
+}
+
+.card-content {
+    /* background: url('../img/chairBg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    padding: 50px 25px;
+    background: linear-gradient( #ccffff, #ffffcc);
+    border-radius: 25px;
+    font-family: 'Imbue', serif;
+    font-size: 23px;
+}
+
+.card-content img {
+    height: 255px;
+    border-radius: 15px;
+}
+
+/* card area ends */
+
+/* =-=-=-=-=-=-=- cotnact css start =-=-=-=-=-=-=-*/
+
+.booking-area {
+    background: url(../img/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.booking-area .booking-area-overlay {
+    background: rgba(47, 57, 80, .7);
+    padding: 55px 0;
+    border-radius: 25px;
+}
+
+.booking-area .booking-sec-title h2 {
+    color: #fff;
+}
+
+.booking-area-form {}
+
+.booking-area-form .form-group {}
+
+.booking-area-form .form-group input {}
+
+.booking-area-form .form-group textarea, .booking-area-form .form-group input {
+    background: transparent;
+    border: 2px solid #999999;
+    color: #fff;
+}
+
+.booking-form-footer {
+    overflow: hidden;
+}
+
+.booking-form-footer .booking-form-left {
+    float: left;
+}
+
+.booking-form-footer .booking-form-left input {}
+
+.booking-form-footer .booking-form-left label {}
+
+.booking-form-footer .booking-form-right {
+    float: right;
+}
+
+.booking-form-footer .booking-form-right input {
+    background: none;
+    color: #fff;
+    border: 1px solid #15a4fa;
+    padding: 9px 19px;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.btn-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-area .my-btn {
+    border: 1px solid rgb(139, 62, 226);
+    padding: 11px 19px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 9px;
+    font-weight: 600;
+}
+
+.my-btn:hover {
+    color: #fff;
+}
+
+.my-btn::after {
+    content: '';
+    position: absolute;
+    background: rgb(139, 62, 226);
+    width: 0%;
+    height: 0%;
+    top: 0%;
+    right: 100%;
+    z-index: -51;
+    transition: .5s;
+}
+
+.my-btn:hover::after {
+    width: 100%;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 9px;
+}
+
+/* =-=-=-=-=-=-=- contact css ends =-=-=-=-=-=-=-*/
